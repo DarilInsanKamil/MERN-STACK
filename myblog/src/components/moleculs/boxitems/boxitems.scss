@@ -1,0 +1,27 @@
+.box-item-wrapper{
+    width: calc(47% - 10px);
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    overflow: hidden;
+    .image-thumb{
+        img{
+            width: 100%;
+            height: fit-content;
+            object-fit: cover;
+        }
+    }
+    .title-box-wrapper{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .auth-date-wrapper{
+        color: rgba(0,0,0, 0.5)
+    }
+    p{
+        margin: 0px;
+    };
+}

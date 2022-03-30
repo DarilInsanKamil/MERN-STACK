@@ -1,0 +1,24 @@
+.detail-blog-wrapper{
+    .img-detail-thumb{
+        img{
+         width: 100%;
+         height: 400px;
+         object-fit: cover;
+        }
+     }
+     .title-detail{
+         font-size: 32px;
+         font-weight: 600;
+     }
+     .author-date-detail{
+         color: rgba(0,0,0, 0.4);
+     }
+     p{
+         margin: 0px;
+     }
+     .back-detail{
+        color: rgba(0,0,0, 0.4);
+        text-align: center;
+        cursor: pointer;
+     }
+}   

@@ -1,0 +1,19 @@
+.button{
+    background-color: #9AD0EC;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0px 7px 10px rgba(154, 208, 236, 0.5);
+}
+@keyframes background {
+    from {background-color: #9AD0EC;}
+    to {background-color: rgb(85, 183, 231);}
+}
+.button:hover{
+    animation: background 1s forwards;
+}

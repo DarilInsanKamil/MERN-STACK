@@ -1,0 +1,14 @@
+{
+  "name": "mern-api",
+  "version": "1.0.0",
+  "description": "Rest api use nodejs\u001b[D\u001b[C (Mern stack)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darilll (komangg)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
